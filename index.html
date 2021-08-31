@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>Conversor do Claw</title>
+</head>
+<body>
+    <div class="container">
+
+        <input type="text" name="pol1" id="pol1" placeholder="Polegadas para centímetro ">
+        <div id="cm1">0 Cm</div>
+        
+    </div>
+    <div class="container">
+        <input type="text" name="cm2" id="cm2" placeholder="Centímetros para polegadas">
+         <div id="pol2">0 Polegadas</div>
+       
+    </div>
+
+    <div class="container">
+        <input type="text" name="pes1" id="pes1" placeholder="Pés para metros">
+        <div id="mt1">0 Metros</div>
+        
+    </div>
+
+    <div class="container">
+        <input type="text" name="mt2" id="mt2" placeholder="Metros para pés">
+        <div id="pes2">0 Pés</div>
+        
+    </div>
+
+    <div class="container">
+        <input type="text" name="cm3" id="cm3" placeholder="Centímetros para metros">
+        <div id="mt3">0 Metros</div>
+        
+    </div>
+
+    <div class="container">
+        <input type="text" name="mt4" id="mt4" placeholder="Metros para centímetros">
+        <div id="cm4">0 Centímetros</div>
+        
+    </div>
+
+    <div id="buttonConverter">
+        <button type="button" class="btn btn-primary" onclick="converterTudo()">Converter</button>
+    </div>
+
+
+
+<script src="scripts.js"></script>
+</body>
+</html>
